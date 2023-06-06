@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(168, 159, 255);
+  background-color: rgb(201, 201, 201);
 }
 
 body {
@@ -12,51 +12,6 @@ body {
     color: rgb(255, 81, 18);
   }
   
-  .grid {
-    /* Grid Fallback */
-    display: flex;
-    flex-wrap: wrap;
-    
-    /* Supports Grid */
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-auto-rows: minmax(150px, auto);
-    grid-gap: 1em;
-  }
-
-  .module {
-    background: #edff4f;
-    border-width: 3px;
-    border-color: rgb(248, 61, 61);
-    border-style: dotted;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
-    
-    margin-left: 5px;
-    margin-right: 5px;
-    flex: 1 1 200px;
-  }
-
-  .module:hover {
-    transform: scale(1.13);
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-  }
-  
-  
-  /* If Grid is supported, remove the margin we set for the fallback */
-  @supports (display: grid) {
-    .module {
-      margin: 0;
-    }
-  }
-
   h1 {
     font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -66,3 +21,17 @@ body {
     text-align: center;
     color: rgb(255, 81, 18);
   }
+
+.purplestar {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-image: url('IMG_5075.PNG');
+  background-size: 500px;
+}
+
+.wovenbag {
+  filter: saturate(200%);
+  filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));
+}
