@@ -1,37 +1,127 @@
 html {
-  background-color: rgb(201, 201, 201);
+  background-color: #4e85f3;
+  background-image: linear-gradient(45deg, #6b9cff 25%, transparent 25%), linear-gradient(-45deg, #6b9cff 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #6b9cff 75%), linear-gradient(-45deg, transparent 75%, #6b9cff 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
 body {
-    margin: 0 auto;
-    max-width: 80%;
-    padding: 1em 0;
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.3;
-    color: rgb(255, 81, 18);
-  }
+  margin: 0 auto;
+  padding: 1em 0;
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+  color: rgb(255, 81, 18);
+}
   
-  h1 {
-    font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    line-height: 1.3;
-    width: 100%;
-    padding: 30px;
-    text-align: center;
-    color: rgb(255, 81, 18);
-  }
+h1 {
+  font-family: 'Comfortaa', cursive, Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  line-height: 1.3;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  color: rgb(255, 81, 18);
+}
 
 .purplestar {
-  width: 500px;
-  height: 500px;
-  display: flex;
+  width: 300px;
+  height: 300px;
   justify-content: center;
   background-image: url('IMG_5075.PNG');
-  background-size: 500px;
+  background-size: 300px;
 }
 
 .wovenbag {
   filter: saturate(200%);
   filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));
+  isolation: auto;
+  height: 200px; width: auto; display: block;
+}
+
+.flexbox {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .flexbox { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .flexbox { grid-template-columns: repeat(3, 1fr); }
+}
+
+.border {
+  background-image: url('IMG_5075.PNG');
+  background-size: 50px;
+  width: 100%; height: 50px;
+}
+
+#top {
+  position: fixed;
+  top: 5px;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 5px;
+}
+.sideborder {
+  background-image: url('IMG_5075.PNG');
+  background-size: 50px;
+  width: 50px; height: 100%;
+}
+
+#left {
+  position: fixed;
+  left: 5px;
+}
+
+#right {
+  position: fixed;
+  right: 5px;
+}
+
+
+
+
+.grid {
+  /* Grid Fallback */
+  display: flex;
+  flex-wrap: wrap;
+  
+  /* Supports Grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 1em;
+
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+
+  margin: 5%;
+}
+
+.module {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  
+  /* Flex Fallback */
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 300px;
+}
+
+/* If Grid is supported, remove the margin we set for the fallback */
+@supports (display: grid) {
+  .module {
+    margin: 0;
+  }
 }
