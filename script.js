@@ -14,12 +14,12 @@ let counter = 0;
 
 function hover(img)
 {  
-   if (counter === 1) img.src = "IMG_5066.PNG";
-   else if (counter === 2) img.src = "IMG_5069.PNG";
-   else if (counter === 3) img.src = "IMG_5070.PNG";
-   else if (counter === 4) img.src = "IMG_5071.PNG";
+   if (counter === 1) img.src = "images/IMG_5066.PNG";
+   else if (counter === 2) img.src = "images/IMG_5069.PNG";
+   else if (counter === 3) img.src = "images/IMG_5070.PNG";
+   else if (counter === 4) img.src = "images/IMG_5071.PNG";
    else {
-      img.src = "IMG_5065.PNG";
+      img.src = "images/IMG_5065.PNG";
       counter = 1;
    }
    counter ++;
@@ -36,3 +36,5 @@ function clicky(div)
 closeButton.onclick = function() {
    popup.style.display = "none";
 }
+
+var scrollBox = document.getElementById("scrollbox");
