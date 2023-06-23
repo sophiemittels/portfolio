@@ -24,3 +24,15 @@ function hover(img)
    }
    counter ++;
 }
+
+var popup = document.getElementById("bigwindow");
+var closeButton = document.getElementsByClassName("close")[0];
+
+function clicky(div)
+{
+   popup.style.display = "block";
+}
+
+closeButton.onclick = function() {
+   popup.style.display = "none";
+}

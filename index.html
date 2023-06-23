@@ -6,34 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sophie Mittelstadt</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stargrid.css">
+    <link rel="stylesheet" href="popover.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div class="border" id="top"></div>
+  <body id="container">
+    <!--div class="border" id="top"></div>
     <div class="border" id="bottom"></div>
     <div class="sideborder" id="left"></div>
-    <div class="sideborder" id="right"></div>
+    <div class="sideborder" id="right"></div-->
 
+    <h1>Sophie Mittelstadt Portfolio</h1>
+  
+      <div id="bigwindow">
+        <span class="close">&times;</span>
+        <div style="width: 20%; float: left;">
+          <img src="images/IMG_5065.PNG" style="width: 50%;"/>
+        </div>
+        <div style="width: 20%; float: left;">
+          <img src="images/IMG_5066.PNG" style="width: 50%;"/>
+        </div>
+        <div style="width: 60%; float: left;">
+          <p>2-in-one purse/mini-backpack</p>
+          <p>MATERIALS</p>
+          <ul>
+            <li>ikea bag (ideally torn/in need of a new life)</li>
+            <li>lucy's vietnamese takeout bags (any contrasting color resuabl grocery bags will do)</li>
+            <li>two 6-in zippers</li>
+            <li>one 1-in wide buckle</li>
+            <li>infinite pins/safety pins</li>
+            <li>heavy duty needle and thread</li>
+            <li>sewing machine*</li>
+          </ul>
+          <i>*if no sewing machine, infinite patience may be required</i>
+          <p>STEPS</p>
+          <ol>
+            <li>cut blue and red bags into 2-in wide strips</li>
+            <li>preserve bag handles</li>
+            <li>preserve bag handles</li>
+          </ol>
+        </div>
+      </div>
 
     <div class="grid">
-      <div class="module purplestar"></div>
-      <div class="module blackstar"><img class="wovenbag" src="IMG_5065.PNG" onmouseover="hover(this);"/></div>
-      <div class="module bluestar"></div>
-      <div class="module pinkstar"></div>
-      <div class="module purplestar"></div>
-      <div class="module blackstar"></div>
-      <div class="module bluestar"></div>
-      <div class="module pinkstar"></div>
-      <div class="module purplestar"></div>
-      <div class="module blackstar"></div>
-      <div class="module bluestar"></div>
-      <div class="module pinkstar"></div>
-      <div class="module purplestar"></div>
-      <div class="module blackstar"></div>
-      <div class="module bluestar"></div>
-      <div class="module pinkstar"></div>
+      <div class="module purplestar" onclick="clicky(this)"></div>
+      <div class="module blackstar" onclick="clicky(this)"><img class="wovenbag" src="images/IMG_5065.PNG" onmouseover="hover(this);"/></div>
+      <div class="module bluestar" onclick="clicky(this)"></div>
+      <div class="module pinkstar" onclick="clicky(this)"></div>
+      <div class="module blackstar" onclick="clicky(this)"></div>
+      <div class="module bluestar" onclick="clicky(this)"></div>
+      <div class="module pinkstar" onclick="clicky(this)"></div>
+      <div class="module purplestar" onclick="clicky(this)"></div>
+      <div class="module bluestar" onclick="clicky(this)"></div>
+      <div class="module pinkstar" onclick="clicky(this)"></div>
+      <div class="module purplestar" onclick="clicky(this)"></div>
+      <div class="module blackstar" onclick="clicky(this)"></div>
+      <div class="module pinkstar" onclick="clicky(this)"></div>
+      <div class="module purplestar" onclick="clicky(this)"></div>
+      <div class="module blackstar" onclick="clicky(this)"></div>
+      <div class="module bluestar" onclick="clicky(this)"></div>
     </div>
 
 
@@ -41,7 +74,7 @@
     <!--h1>Sophie Mittelstadt</h1>
     <div class="flexbox">
     <div class="purplestar">
-      <img class="wovenbag" src="IMG_5065.PNG" style="isolation: auto; width: 20px; height: auto; display: block;" onmouseover="hover(this);"/>
+      <img class="wovenbag" src="images/IMG_5065.PNG" style="isolation: auto; width: 20px; height: auto; display: block;" onmouseover="hover(this);"/>
     </div>
     <div class="purplestar">
     </div>
