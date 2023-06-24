@@ -1,15 +1,16 @@
-#bigwindow {
+.popup {
     display: none;
     position: absolute;
     z-index: 1;
     left: 0;
     top: 0;
-    width: 80%;
-    height: 85%;
+    width: 90%;
+    height: 90%;
     overflow: auto;
-    background-image: linear-gradient(rgb(253, 91, 91), rgb(250, 250, 250));
-    background-color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #4e90f3;
+    background-image: linear-gradient(45deg, #6b9cff 25%, transparent 25%), linear-gradient(-45deg, #6b9cff 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #6b9cff 75%), linear-gradient(-45deg, transparent 75%, #6b9cff 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -19,7 +20,7 @@
   }
   
   /* The Close Button */
-  .close {
+#closeButton {
     color: #fff;
     float: right;
     font-size: 40px;
@@ -27,8 +28,8 @@
     filter: none !important;
   }
   
-  .close:hover,
-  .close:focus {
+  #closeButton:hover,
+  #closeButton:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
