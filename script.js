@@ -26,15 +26,12 @@ function hover(img)
 }
 
 var popup = document.getElementById("bigwindow");
-var closeButton = document.getElementsByClassName("close")[0];
-
 function clicky(div)
 {
    popup.style.display = "block";
 }
 
+var closeButton = document.getElementsByClassName("close")[0];
 closeButton.onclick = function() {
    popup.style.display = "none";
 }
-
-var scrollBox = document.getElementById("scrollbox");
