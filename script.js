@@ -25,7 +25,7 @@ function crochetHangingClicky(div) {
 
 // open pillow page
 function pillowClicky(div) {
-   window.location.href = "pillow.html";
+   window.location.href = "pillows.html";
 }
 
 // open rug page
