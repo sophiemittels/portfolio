@@ -1,15 +1,4 @@
-/**function bigImg(x) {
-    x.style.height = "600px";
-    x.style.width = "600px";
- }
- 
- function normalImg(x) {
-    x.style.height = "400px";
-    x.style.width = "400px";
-    x.style.margin = "0px 5px 0px 5px;";
-    x.style.flex = "1 1 200px";
- }**/
-
+// woven bag hover animation
 let counter = 0;
 function hover(img)
 {  
@@ -24,72 +13,45 @@ function hover(img)
    counter ++;
 }
 
-// plastic basket popup
-var plasticPopup = document.getElementById("plasticPopup");
+// open plastic basket page
 function plasticClicky(div) {
-   //plasticPopup.style.display = "block";
    window.location.href = "plasticbasket.html";
 }
 
-// crochet hanging popup
-var crochetHangingPopup = document.getElementById("crochetHangingPopup");
+// open crochet hanging page
 function crochetHangingClicky(div) {
-   //crochetHangingPopup.style.display = "block";
    window.location.href = "crochethanging.html";
 }
 
-// pillow popup
-var pillowPopup = document.getElementById("pillowPopup");
+// open pillow page
 function pillowClicky(div) {
-   //pillowPopup.style.display = "block";
    window.location.href = "pillow.html";
 }
 
-// rug popup
-var rugPopup = document.getElementById("rugPopup");
+// open rug page
 function rugClicky(div) {
-   //rugPopup.style.display = "block";
    window.location.href = "rugs.html";
 }
 
-// bag popup
-var bagPopup = document.getElementById("bagPopup");
+// open woven bag page
 function bagClicky(div) {
-   //bagPopup.style.display = "block";
    window.location.href = "wovenbag.html";
 }
 
-// tetris popup
-var tetrisPopup = document.getElementById("tetrisPopup");
+// open tetris page
 function tetrisClicky(div) {
-   //tetrisPopup.style.display = "block";
    window.location.href = "tetris.html";
+}
+
+// open music/middie page
+function middieClicky(div) {
+   window.location.href = "middie.html";
 }
 
 // close button behavior
 var closeButton = document.getgetElementById("closeButton");
 function escapeClicky(div){
    window.location.href = "index.html";
-   /*plasticPopup.style.display = "none";
-   crochetHangingPopup.style.display = "none";
-   pillowPopup.style.display = "none";
-   rugPopup.style.display = "none";
-   bagPopup.style.display = "none";
-   tetrisPopup.style.display = "none";*/
 }
 
-// close pop-up when esc. is pressed (reference: https://jsfiddle.net/m9w8m/)
-/*document.onkeydown = function(evt) {
-   evt = evt || window.event;
-
-   
-   if (evt.key == "Escape") {
-      plasticPopup.style.display = "none";
-      crochetHangingPopup.style.display = "none";
-      pillowPopup.style.display = "none";
-      rugPopup.style.display = "none";
-      bagPopup.style.display = "none";
-   tetrisPopup.style.display = "none";*
-      window.location.href = "index.html";
-   }
-};*/
+// close pop-up when esc. is pressed (TODO)

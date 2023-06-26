@@ -19,18 +19,3 @@
     filter: drop-shadow(5px 5px 5px rgb(28, 75, 162));
   }
   
-  /* The Close Button */
-#closeButton {
-    color: #fff;
-    float: right;
-    font-size: 40px;
-    font-weight: bold;
-    filter: none !important;
-  }
-  
-  #closeButton:hover,
-  #closeButton:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
