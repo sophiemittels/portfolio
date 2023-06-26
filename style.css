@@ -122,5 +122,9 @@ body {
 /* close button styling for mobile */
 @media (max-width: 600px) { 
   #closeButton {font-size: 20px; background-size: 48px; width: 48px; height: 50px; margin-right: 2%;}
-  
+}
+
+/* video styling for mobile */
+@media (max-width: 600px) { 
+  .vid {width: 280px; height: 160px;}
 }

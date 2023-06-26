@@ -48,6 +48,16 @@ function middieClicky(div) {
    window.location.href = "middie.html";
 }
 
+// videos page
+function videoClicky(div) {
+   window.location.href = "videos.html";
+}
+
+// drawings page
+function drawingClicky(div) {
+   window.location.href = "drawings.html";
+}
+
 // close button behavior
 var closeButton = document.getgetElementById("closeButton");
 function escapeClicky(div){
