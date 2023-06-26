@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sophie Mittelstadt</title>
+    <title>Projects by Sophie Mittelstadt</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stargrid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" type="images/favicon.ico" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <!--div class="border" id="top"></div>
@@ -19,7 +20,19 @@
     <div class="sideborder" id="left"></div>
     <div class="sideborder" id="right"></div-->
 
+    <!--TODO: make this into a one-time animation the first time you load my side-->
+    <h2>arts & crafts by sophie mittelstadt</h2>
+    <div style="margin-left: 20%; margin-right: 20%;background-color: black;">
+      <p style="padding: 1%;">I used to think I had too many hobbies, but I realized that they mostly fall under the umbrella of making things. I made this website to showcase some of the things I've made.</p>
+    </div>
+
     <div class="grid">
+      <div class="module bluestar" onclick="bagClicky(this)">
+        <img class="wovenbag" src="images/IMG_5065.PNG" onmouseover="hover(this);"/>
+      </div>
+      <div class="module bluestar" onclick="middieClicky(this)">
+        <img src="images/elsewheresong.PNG.jpeg" style="width: 45%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      </div>
       <div class="module bluestar" onclick="plasticClicky(this)">
         <img src="images/IMG_5981.PNG" style="width: 40%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
       </div>
@@ -32,15 +45,8 @@
       <div class="module bluestar" onclick="rugClicky(this)">
         <img src="images/IMG_5975.PNG" style="width: 40%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
       </div>
-      <div class="module bluestar" onclick="bagClicky(this)">
-        <img class="wovenbag" src="images/IMG_5065.PNG" onmouseover="hover(this);"/>
-      </div>
       <div class="module bluestar" onclick="tetrisClicky(this)">
         <img src="images/IMG_6008.PNG" style="width: 55%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
-      </div>
-     
-      <div class="module bluestar" onclick="middieClicky(this)">
-        <img src="images/elsewheresong.PNG.jpeg" style="width: 55%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
       </div>
 
       <!--
