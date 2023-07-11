@@ -1,0 +1,4 @@
+- Make initial images low res (speed up load time)
+- Return to home when "esc" is pressed
+- On hover animation for home page
+- Animation for website intro?

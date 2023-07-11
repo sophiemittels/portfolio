@@ -23,7 +23,7 @@ h3 {
   font-weight: normal;
 }
 h2 {
-  font-size: 30px;
+  font-size: 34px;
   text-align: center;
 }
 /* text styling for mobile */
@@ -56,10 +56,10 @@ body {
 #closeButton {
   color: #fff;
   float: right;
-  font-size: 40px;
+  font-size: 26px;
   font-weight: bold;
   filter: none !important;
-  background-size: 96px; width: 96px; height: 100px; margin-right: 2%;
+  background-size: 72px; width: 72px; height: 75px; margin-right: 2%;
 }
 #closeButton:hover,
 #closeButton:focus {

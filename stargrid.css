@@ -39,7 +39,7 @@
 .bluestar {
   width: 373px;
   height: 400px;
-  background-image: url('images/IMG_5161.PNG');
+  background-image: url('images/bluestar_low_def.PNG');
   background-size: 373px;
 }
 
@@ -53,8 +53,15 @@
 .blackstar {
   width: 384px;
   height: 400px;
-  background-image: url('images/IMG_5163.PNG');
+  background-image: url('images/blackstar.PNG');
   background-size: 384px;
+}
+
+.closestar {
+  width: 96px;
+  height: 100px;
+  background-image: url('images/tinystar.PNG');
+  background-size: 96px;
 }
 
 

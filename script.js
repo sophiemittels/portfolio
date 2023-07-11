@@ -1,7 +1,7 @@
 // TODO: make this work for each individual star without it not working
 function hover(div, name)
 {
-   div.style.opacity = "50%";
+   div.style.opacity = "80%";
    //document.getElementById("text").style.display = "block";
    //document.getElementById("image").style.display = "none";
 }
@@ -16,12 +16,12 @@ function unhover(div)
 let counter = 0;
 function bagHover(img)
 {  
-   if (counter === 1) img.src = "images/IMG_5066.PNG";
+   if (counter === 1) img.src = "images/wovenbag_2_high_def.PNG";
    else if (counter === 2) img.src = "images/IMG_5069.PNG";
    else if (counter === 3) img.src = "images/IMG_5070.PNG";
    else if (counter === 4) img.src = "images/IMG_5071.PNG";
    else {
-      img.src = "images/IMG_5065.PNG";
+      img.src = "images/wovenbag_1_high_def.PNG";
       counter = 1;
    }
    counter ++;
