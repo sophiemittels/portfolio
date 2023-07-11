@@ -1,6 +1,20 @@
+// TODO: make this work for each individual star without it not working
+function hover(div, name)
+{
+   div.style.opacity = "50%";
+   //document.getElementById("text").style.display = "block";
+   //document.getElementById("image").style.display = "none";
+}
+function unhover(div)
+{
+   div.style.opacity = "100%";
+   //document.getElementById("image").style.display = "block";
+   //document.getElementById("text").style.display = "none";
+}
+
 // woven bag hover animation
 let counter = 0;
-function hover(img)
+function bagHover(img)
 {  
    if (counter === 1) img.src = "images/IMG_5066.PNG";
    else if (counter === 2) img.src = "images/IMG_5069.PNG";
@@ -65,3 +79,5 @@ function escapeClicky(div){
 }
 
 // close pop-up when esc. is pressed (TODO)
+
+// welcome text only on first load (TODO)

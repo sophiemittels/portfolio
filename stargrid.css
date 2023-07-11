@@ -13,6 +13,8 @@
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
+
+  clear: both;
 }
 
 .module {
@@ -32,7 +34,7 @@
   height: 400px;
   background-image: url('images/IMG_5075.PNG');
   background-size: 393px;
-}
+} 
 
 .bluestar {
   width: 373px;

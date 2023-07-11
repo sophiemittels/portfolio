@@ -17,36 +17,46 @@
     <!--TODO: make this into a one-time animation the first time you load my side-->
     <h2>projects by sophie mittelstadt</h2>
     <div style="margin-left: 20%; margin-right: 20%;background-color: rgb(27, 27, 27);">
-      <p style="padding: 1%;">I used to think I had too many hobbies, but I realized that they mostly fall under the umbrella of making things. I made this website to share some of the things I've made.</p>
+      <!--p style="padding: 1%;" id="welcome">I used to think I had too many hobbies, but I realized that they mostly fall under the umbrella of making things. I made this website to share some of the things I've made.</p-->
     </div>
 
     <div class="grid">
-      <div class="module bluestar" onclick="bagClicky(this)">
-        <img class="wovenbag" src="images/IMG_5065.PNG" onmouseover="hover(this);"/>
+      <div id="slot1" class="module bluestar" onclick="bagClicky(this)" onmouseover="hover(this, id)" onmouseleave="unhover(this)">
+        <!--img class="wovenbag" src="images/IMG_5065.PNG" onmouseover="bagHover(this);"/-->
+        <img class="wovenbag" id="image" src="images/IMG_5065.PNG"/>      
+        <div class="text" id="text" style="display: none;">2-in-1 woven bag/backpack</div>
       </div>
-      <div class="module bluestar" onclick="middieClicky(this)">
-        <img src="images/elsewheresong.PNG.jpeg" style="width: 45%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      <div class="module bluestar" onclick="middieClicky(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">
+        <img id="image" src="images/elsewhere.jpeg" style="width: 45%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+        <div class="text" id="text" style="display: none;">music</div>
       </div>
-      <div class="module bluestar" onclick="rugClicky(this)">
-        <img src="images/IMG_5975.PNG" style="width: 40%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      <div class="module bluestar" onclick="rugClicky(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">
+        <img id="image" src="images/IMG_5975.PNG" style="width: 40%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+        <div class="text" id="text" style="display: none;">rugs</div>
       </div>
-      <div class="module bluestar" onclick="drawingClicky(this)">
-        <img src="images/F0A8C534-1D5F-4091-B928-90DF1D35B26A.jpg" style="width: 45%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      <div class="module bluestar" onclick="drawingClicky(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">
+        <img id="image" src="images/drawing1_high_def.jpg" style="width: 45%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+        <div class="text" id="text" style="display: none;">drawings</div>
       </div>
-      <div class="module bluestar" onclick="pillowClicky(this)">
-        <img src="images/IMG_5978.PNG" style="width: 50%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      <div class="module bluestar" onclick="pillowClicky(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">
+        <img id="image" src="images/IMG_5978.PNG" style="width: 50%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+        <div class="text" id="text" style="display: none;">pillows</div>
       </div>
-      <div class="module bluestar" onclick="crochetHangingClicky(this)">
-        <img src="images/IMG_5980.PNG" style="width: 60%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      <div class="module bluestar" onclick="crochetHangingClicky(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">
+        <img id="image" src="images/IMG_5980.PNG" style="width: 60%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+        <div class="text" id="text" style="display: none;">tunisian crochet wall hanging</div>
       </div>
-      <div class="module bluestar" onclick="tetrisClicky(this)">
-        <img src="images/IMG_6008.PNG" style="width: 55%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      <div class="module bluestar" onclick="tetrisClicky(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">
+        <img id="image" src="images/IMG_6008.PNG" style="width: 55%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+        <div class="text" id="text" style="display: none;">tetris shirt</div>
       </div>
-      <div class="module bluestar" onclick="plasticClicky(this)">
-        <img src="images/IMG_5981.PNG" style="width: 40%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      <div class="module bluestar" onclick="plasticClicky(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">
+        <img id="image" src="images/IMG_5981.PNG" style="width: 40%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+        <div class="text" id="text" style="display: none;">woven crocheted basket</div>
       </div>
-      <div class="module bluestar" onclick="videoClicky(this)">
-        <img src="images/cactus.png" style="width: 60%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+      <div class="module bluestar" onclick="videoClicky(this)" onmouseover="hover(this)" onmouseleave="unhover(this)">
+        <img id="image" src="images/cactus_high_def.png" style="width: 60%; filter: drop-shadow(5px 5px 5px rgb(11, 11, 11));"/>
+        <div class="text" id="text" style="display: none;">videos</div>
       </div>
      
     </div>
